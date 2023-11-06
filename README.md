@@ -18,7 +18,18 @@
     2. MNIST Dataset Classification
   </summary>
   <div>
-    2023-11-07 <a href="https://github.com/ongsiru/AIStudy/blob/main/Linear%20Regression%20Program.ipynb">Classification 프로그램</a>
+    2023-11-07 <a href="https://github.com/ongsiru/AIStudy/blob/main/MNIST%20Dataset%20Classification.ipynb">Classification 프로그램</a>
+
+1.	Layer의 구조
+Layer Size의 경우, 레이어 크기를 증가시킨 결과 성능이 향상되었다. 레이어 크기를 늘림으로써 모델은 더 복잡한 패턴을 학습할 수 있다. 이로 인해 정확도가 더 높아진다.
+2.	Batch Size
+64를 사용한 경우, 정확도가 더 높게 나왔다. 일반적으로 사이즈가 큰 배치는 훈련 속도를 높일 수 있지만, 메모리 요구량이 늘어나고 결과의 유의미한 차이는 없었다.
+3.	Optimizer 종류
+기울기 최적화 과정에서 SGD를 사용한 경우, Adam보다 정확도가 낮았다. Adam은 모멘텀과 학습률 스케줄링을 자동으로 조절하며 일반적으로 더 좋은 수렴을 제공하는 반면에 SGD는 일정하지 않은 gradient로 파라미터를 업데이트하는 것은 수렴을 방해할 수 있다.
+4.	Epoch 수
+Epoch 수를 늘리면 모델이 더 많은 훈련을 수행하고 더 높은 정확도를 달성할 수 있다. 그러나 특정 수에 벗어난 Epoch을 사용하면 Overfitting으로 인해 오히려 정확도가 떨어진다. 해당 실험에서 Epoch가 20일 때 이 현상을 발견할 수 있었다.
+5.	결론
+한정된 학습 데이터에서 Epoch의 수가 커질수록 Overfitting이 발생하고 우리는 중요 파라미터의 값을 변경하거나 여러 가지 피드백과 규제를 부여해 Feature의 영향력을 조절할 수 있다. 
   </div>
 </details>
 
