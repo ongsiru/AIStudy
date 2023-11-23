@@ -40,7 +40,7 @@ MNIST는 NIST라는 데이터셋을 가공하여 0부터 9까지 인간의 글�
     3. CIFAR Dataset Classification with CNN Model
   </summary>
   <div>
-    2023-11-24 <a href="https://github.com/ongsiru/AIStudy/blob/main/Linear%20Regression%20Program.ipynb">CNN모델 Classification 프로그램</a>
+    2023-11-24 <a href="https://github.com/ongsiru/AIStudy/blob/main/CIFAR%20Dataset%20Classification%20with%20CNN%20Model.py">CNN모델 Classification 프로그램</a>
   </div>
 </details>
 
