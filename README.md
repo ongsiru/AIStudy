@@ -35,4 +35,15 @@ Epoch 수를 늘리면 모델이 더 많은 훈련을 수행하고 더 높은 �
 
 MNIST는 NIST라는 데이터셋을 가공하여 0부터 9까지 인간의 글씨를 28*28 grayscale 이미지로 모아 놓은 것이며 0~255 사이의 숫자 행렬로 표현되어 있다. tensorflow에서 제공하는 딥러닝 라이브러리를 이용하여 MNIST 분류 학습 모델을 실험했다.
 
+<details>
+  <summary>
+    3. CIFAR Dataset Classification with CNN Model
+  </summary>
+  <div>
+    2023-11-24 <a href="https://github.com/ongsiru/AIStudy/blob/main/Linear%20Regression%20Program.ipynb">CNN모델 Classification 프로그램</a>
+  </div>
+</details>
+
+이미지 데이터셋에서 Imbalanced Data와 Balanced Data 간의 성능 차이와 선택된 데이터 클래스의 다양성을 통해 데이터 불균형이 실제 모델 성능에 미치는 영향을 이해할 수 있다. 
+
 ## AI Algorithm
